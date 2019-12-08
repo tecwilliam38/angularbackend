@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-@import "~bootstrap/dist/css/signin.css";
+/* @import "~bootstrap/dist/css/signin.css"; */
         
 * {
     margin: 0px;
@@ -10,6 +10,7 @@
 
 body,
 html {
+	padding:auto!important;
     height: 100%;
     font-family: Poppins-Regular, sans-serif;
 }
@@ -192,7 +193,7 @@ iframe {
 
 .limiter {
     width: 100%;
-    margin: 0 auto;
+    margin: 2% auto!important;
 }
 
 .container-login100 {
@@ -3517,7 +3518,10 @@ iframe {
 	right: 0px;
 	bottom: 0px;
 }
-
+/* .img{
+	background-image: url("../assets/logo-serratec.png");
+	background-size:cover;
+} */
 
 
 
